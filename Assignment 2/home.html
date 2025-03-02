@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Compact UI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3dcd6;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: white;
+            padding: 10px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 0;
+        }
+        .buttons button {
+            background-color: #f3f1ae;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 15px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .description {
+            background-color: #d3d3d3;
+            padding: 10px;
+            margin: 10px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .offer {
+            background-color: #d3d3d3;
+            padding: 8px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .categories {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            padding: 10px;
+        }
+        .category {
+            background-color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        img {
+            width: 100px;
+            height: 80px;
+            border-radius: 5px;
+        }
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="amazon.png" alt="Amazon Logo" width="120">
+    </div>
+    <div class="buttons">
+        <button>Log In</button>
+        <button>Sign Up</button>
+    </div>
+    <div class="description">
+        Amazon is a global e-commerce platform offering a vast range of products, fast delivery, and customer-centric services. It provides everything from electronics to groceries with different services and personal recommendations for seamless online shopping.
+    </div>
+    <div class="offer">Up to 60% Off on Footwear</div>
+    <div class="categories">
+        <div class="category">
+            <img src="womenshoes.png" alt="Women Shoes">
+            <div class="title">Women Shoes</div>
+        </div>
+        <div class="category">
+            <img src="sportsshoes.png" alt="Sports Shoes">
+            <div class="title">Sports Shoes</div>
+        </div>
+    </div>
+    <div class="offer">Top Mobile Accessories</div>
+    <div class="categories">
+        <div class="category">
+            <img src="neckbands.png" alt="Neckbands">
+            <div class="title">Neckbands</div>
+        </div>
+        <div class="category">
+            <img src="powerbanks.png" alt="Powerbanks">
+            <div class="title">Powerbanks</div>
+        </div>
+    </div>
+</body>
+</html>

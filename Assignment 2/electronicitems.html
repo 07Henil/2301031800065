@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Electronics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8dbd5;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: white;
+            padding: 10px;
+        }
+        .header img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
+        .nav-options {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+        }
+        .nav-options div {
+            background-color: pink;
+            padding: 8px 12px;
+            border-radius: 15px;
+            font-weight: bold;
+        }
+        .category-header {
+            background-color: #eaf088;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 20px 0;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            justify-content: center;
+            max-width: 90%;
+            margin: auto;
+        }
+        .product {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .product-name {
+            margin-top: 8px;
+            background-color: pink;
+            padding: 8px;
+            border-radius: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="amazon.png" alt="Amazon">
+    </div>
+    <div class="nav-options">
+        <div>Shopping</div>
+        <div>Prime Subscription</div>
+        <div>Whole Foods</div>
+        <div>Amazon Music</div>
+    </div>
+    <div class="category-header">Electronic Items</div>
+    <div class="products">
+        <div class="product">
+            <img src="headphones.png" alt="Headphones">
+            <div class="product-name">Headphones</div>
+        </div>
+        <div class="product">
+            <img src="smartphones.png" alt="Smart Phones">
+            <div class="product-name">Smart Phones</div>
+        </div>
+        <div class="product">
+            <img src="laptopes.png" alt="Laptops">
+            <div class="product-name">Laptops</div>
+        </div>
+        <div class="product">
+            <img src="speakers.png" alt="Speakers">
+            <div class="product-name">Speakers</div>
+        </div>
+    </div>
+</body>
+</html>
